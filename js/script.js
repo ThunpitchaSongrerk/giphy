@@ -9,11 +9,13 @@ $(".search-button").click(function () {
     })
 
     .then(function (data) {
-      let randomNum = Math.ceil(Math.random() * data.data.length);
-      console.log(randomNum);
+      for (let i = 0; i < 3; i++) {
+        let randomNum = Math.floor(Math.random() * data.data.length);
+        console.log(randomNum);
 
-      let firstUrl = data.data[randomNum].images.original.url;
-      $(".main").append(`<img src="${firstUrl}">`);
-      console.log(data.data.length);
+        let randomGif = data.data[randomNum].images.original.url;
+        $(".main").append(`<img src="${randomGif}">`);
+        console.log(data.data.length);
+      }
     });
 });

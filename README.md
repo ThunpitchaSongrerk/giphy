@@ -10,7 +10,7 @@ In this unit, you will create a Giphy App. The Giphy App will take a search term
 
 #### Planning
 
-- [ ] Complete the project planning document.
+- [x] Complete the project planning document.
 
 #### GitHub Set-Up
 
@@ -36,7 +36,7 @@ In this unit, you will create a Giphy App. The Giphy App will take a search term
 
 #### Wrap
 
-- [ ] Commit your changes!
+- [x] Commit your changes!
 
 ## Day 2
 
@@ -64,7 +64,7 @@ In this unit, you will create a Giphy App. The Giphy App will take a search term
 
 ### Wrap
 
-- [ ] Commit your changes!
+- [x] Commit your changes!
 
 ### Day 3 Goal 2: Add a project extension
 
